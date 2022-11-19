@@ -1,0 +1,16 @@
+.navbar{
+    background-image: linear-gradient(to right, $sunsetorange ,$bluenight);
+}
+.nav-item:hover{
+    text-decoration-line: underline;
+    text-shadow: 0 0 5px green;
+    background-color: white;
+}
+.navbar-brand{
+    font-weight:900;
+    font-size:larger;
+    align-items: center;
+}
+.navbar-brand .logo-brand{
+    height: 40px;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dj's Shop is a company in charge of supplying of brand-new and high-tech products to enhance djs' perfomances and quality of music production">
+    <meta name="keywords" content="mixer, mixers, dj, djs, headphones, loopers, mixing tracks, mixing songs, allen&heath, pioneer, denon, numark, sennheiser, music production, monitor, djs products, djing, electronic music, keyboards, all-in-one system, audio technica, buy products, club components, djing elements, party, party instruments, dj news">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./scss/main.css"/>
+    <link rel="shortcut icon" href="./optimized-images/favicon.png">
+    <title>Dj's Shop</title>
+  </head>
+  <body>
+    <!--HEADER------------------------------------------------------------------------>
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <img class="logo-brand" src="./optimized-images/logo.png" alt="Logo"> DJ'S SHOP
+          </a>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/branch-offices.html">Branch Offices</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./paginas/news.html">News</a>
+          </li>
+        </ul>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control" type="text" placeholder="Search">
+            <button class="btn" type="submit"><img class="lupa-image" src="./optimized-images/lupa.png" alt="buscador"></button>
+          </form>
+      </nav>
+      <!--BODY--------------------------------------------------------------------->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1>WELCOME TO DJ'S SHOP</h1>      
+          <p>Find affordable prices and the best sales on dj/producer equipment. Acquire the best state-of-the-art technology and the newest devices for dj's performances and producer productions to lift off your career</p>
+        </div>
+      </div>
+      <h2 class="home-title">Most Selled Products</h2>
+      <div class="grid-container">           
+        <div class="home-box">
+          <img class="home-img" src="./optimized-images/auriculares aiaiai tma 2.webp" alt="Headphones Aiaiai TMA 2" class="img">
+          <p class="home-model">Headphones Aiaiai TMA 2</p>
+        </div>
+        <div class="home-box">
+          <img class="home-img" src="./optimized-images/allen&heath xone 92.jpg" alt="Mixer Allen & Heath Xone 92">
+          <p> Mixer Allen & Heath Xone 92</p>
+        </div>
+        <div class="home-box">    
+          <img class="home-img" src="./optimized-images/DENON DJ-SC5000M.jpg" alt="Denon SC 5000">
+          <p class="home-model">Denon SC 5000</p>
+        </div>
+        <div class="home-box">
+          <img class="home-img" src="./optimized-images/Pioneer DDJ-RB 2.jpg" alt="Pioneer DDJ RB 2">
+          <p class="home-model">Pioneer DDJ RB 2</p>
+        </div>
+        <div class="home-box">
+          <img class="home-img" src="./optimized-images/pioneer-dj-hdj-c70-dj-headphones-black.webp" alt="Headphones Pioneer Hdj C70">
+          <p class="home-model">Headphones Pioneer Hdj C70</p>
+        </div>
+        <div class="home-box">
+          <img class="home-img" src="./optimized-images/sennheiser-hd-25.jpg" alt="Headphones Sennheiser Hd 25">
+          <p class="home-model">Headphones Sennheiser Hd 25</p>
+        </div> 
+      </div>
+      <!--FOOTER--------------------------------------------------->
+      <footer class="footer">
+        <div class="boxes formulario">
+            <p class="form-p">Work With Us</p>
+            <form action="./index.html" method="post" enctype="application/x-www-form-urlencoded">
+                <input type="text" name="name" required placeholder="Name" class="casillas">
+                <input type="email" name="email"required placeholder="E-mail Address" class="casillas">
+                <textarea name="message" placeholder="Leave your message"></textarea>
+                <input class="boton" type="submit" value="Send">
+            </form>
+        </div>
+        <div class="boxes">
+            <div class="help-section">
+                <img src="./optimized-images/icons8-help-48.png" alt="Help logo">
+                <a href="#">Help</a>
+            </div>
+            <div class="copyright-section">
+                <img src="./optimized-images/icons8-copyright-48.png" alt="Copyright logo">
+                <p>All Rights Reserved</p>
+            </div>
+        </div>
+        <div class="boxes">
+            <p class="findus-text">Find Us on:</p>
+            <div class="social-networks">
+                <img src="./optimized-images/icons8-instagram-48.png" alt="Instagram Page"><a href="https://www.instagram.com/pioneerdjglobal/" target="_blank">Instagram</a>
+                <img src="./optimized-images/icons8-facebook-48.png" alt="Facebook Page"><a href="https://www.facebook.com/pioneer.dj.global" target="_blank">Facebook</a>
+                <img src="./optimized-images/icons8-whatsapp-48.png" alt="WhatsApp"><a href="https://api.whatsapp.com/send/?phone=5492215137609&text&type=phone_number&app_absent=0" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+      integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
